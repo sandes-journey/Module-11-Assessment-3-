@@ -2,11 +2,11 @@
 let posts = [
     {
         id: 1,
-        username: "travel_lover",
+        username: "travelwithsam_",
         userImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face",
         image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=600&fit=crop",
-        caption: "Amazing sunset at the mountains! 🌅 #nature #travel",
-        likes: 142,
+        caption: "Amazing sunset at the mountains! 🌅 #nature #travel #clouds",
+        likes: 402,
         liked: false,
         time: "2 hours ago"
     },
@@ -22,7 +22,7 @@ let posts = [
     },
     {
         id: 3,
-        username: "fitness_guru",
+        username: "fitness_with_bella",
         userImage: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=40&h=40&fit=crop&crop=face",
         image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop",
         caption: "Morning workout complete! 💪 #fitness #motivation",
@@ -32,27 +32,27 @@ let posts = [
     },
     {
         id: 4,
-        username: "art_lover",
+        username: "stha_the_artist",
         userImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face",
         image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=600&fit=crop",
-        caption: "Beautiful street art in the city 🎨 #art #streetart",
+        caption: "Got bored and painted this bueaty 🎨 #art #streetart",
         likes: 156,
         liked: true,
         time: "12 hours ago"
     },
     {
         id: 5,
-        username: "coffee_addict",
+        username: "coffee_blog",
         userImage: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=40&h=40&fit=crop&crop=face",
         image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=600&fit=crop",
-        caption: "Perfect latte art ☕ Starting the day right!",
-        likes: 78,
+        caption: "Perfect latte art ☕ Starting the day right! #coffee",
+        likes: 178,
         liked: false,
         time: "1 day ago"
     },
     {
         id: 6,
-        username: "pet_lover",
+        username: "mary_04",
         userImage: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face",
         image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=600&h=600&fit=crop",
         caption: "My little buddy enjoying the sunshine 🐕 #dogsofinstagram",
@@ -63,7 +63,7 @@ let posts = [
     },
     {
         id: 7,
-        username: "beach_vibes",
+        username: "tess01",
         userImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face",
         image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=600&fit=crop",
         caption: "Paradise found 🏖️ #beachlife #vacation",
@@ -143,7 +143,7 @@ function createPost() {
     
     const newPost = {
         id: Date.now(),
-        username: "umair_nurgat",
+        username: "sandeee_03",
         userImage: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=40&h=40&fit=crop&crop=face",
         image: imageUrl || null,
         caption: caption,
